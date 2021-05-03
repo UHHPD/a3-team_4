@@ -7,7 +7,7 @@
 using namespace std;
 
 double poisson(double mu, int k){
-  return ((pow(mu, k)*exp(-mu))/tgamma(k));
+  return ((pow(mu, k)*exp(-mu))/tgamma(k+1));
 }
 
 int main(){

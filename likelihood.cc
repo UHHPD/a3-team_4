@@ -57,8 +57,7 @@ int main() {
 
   double z = ((-2*log(a)-n)/(sqrt(2*n)));
 
-  cout << a << endl;
-  cout << z << endl;
+  cout << a << "" << z << endl;
 
   fin.close();
   fout1.close();

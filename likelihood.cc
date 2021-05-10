@@ -53,17 +53,10 @@ int main() {
     }
   }
 
-  cout << "Aufgabenteil a): " << prob(daten, mu_1) << endl << endl;
-  
-  cout << "Aufgabenteil d): " << endl;
-  cout << "Min: " << space[0] << endl;
-  cout << "Max: " << space.back() << endl << endl;
-
   double a = (prob(daten, mu_1))/(prob_n(daten));
 
   double z = ((-2*log(a)-n)/(sqrt(2*n)));
 
-  cout << "Aufgabenteil e): " << endl;
   cout << a << endl;
   cout << z << endl;
 
